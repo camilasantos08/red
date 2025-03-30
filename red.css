@@ -1,0 +1,58 @@
+.conteudo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.redacao {
+    position: absolute;
+    background-color: #1D2342;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 950px;
+    height: 830px;
+    overflow-y: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.redacao.left {
+    left: 280px;
+    top: 10px;
+}
+.redacao.right {
+    left: 1560px;
+    top: 10px;
+}
+.titulo-redacao {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #002555;
+}
+
+.logo img {
+height: 90px;
+}
+main {
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+background-color: #002555;
+width: 100%;
+height: 204px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
